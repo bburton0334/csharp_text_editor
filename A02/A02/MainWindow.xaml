@@ -1,0 +1,45 @@
+﻿<Window x:Class="A02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A02"
+        mc:Ignorable="d"
+        x:Name="Window"
+        Closing="CloseRequest"
+        Title="NotePad A02" Height="450" Width="800">
+    <Grid> 
+        <StackPanel>
+            <Menu VerticalAlignment="Top" RenderTransformOrigin="0.5,-0.289" Height="26" Margin="0,0,-0.4,0" Foreground="Black">
+                <Menu.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FF6B6B83" Offset="1"/>
+                        <GradientStop Color="#FFA4A7C5"/>
+                    </LinearGradientBrush>
+                </Menu.Background>
+                <MenuItem x:Name="fileMenu" Header="File" Background="{x:Null}" BorderBrush="{x:Null}">
+                    <MenuItem x:Name="fileItemNew" Header ="New" Click="FileNew"/>
+                    <MenuItem x:Name="fileItemOpen" Header="Open" Click="FileOpen"/>
+                    <MenuItem x:Name="fileItemSaveAs" Header="Save As" Click="FileSaveAs"/>
+                    <MenuItem x:Name="fileItemClose" Header="Close" Click="FileClose"/>
+                </MenuItem>
+                <MenuItem x:Name="optionMenu"  Header="Options"/>
+                <MenuItem x:Name="helpMenu" Header="Help">
+                    <MenuItem x:Name="helpItemAbout" Header="About" Click="DisplayAboutWindow"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+        <TextBox Margin="0,25,-0.4,24" x:Name="txtBoxContent" FontFamily="Arial" Text="" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True" VerticalScrollBarVisibility="Auto" GotFocus="FocusAltered" KeyDown="ContentAltered" KeyUp="DisplayCharCount" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        <DockPanel>
+            <StatusBar VerticalAlignment="Bottom" Height="26"  Margin="0,389,-0.4,0">
+                <StatusBar.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFB8B6E2" Offset="0"/>
+                        <GradientStop Color="#FF6A697A" Offset="1"/>
+                    </LinearGradientBrush>
+                </StatusBar.Background>
+                <TextBlock x:Name="charCounter" Text="0 Characters Present." Width="587"/>
+            </StatusBar>
+        </DockPanel>
+    </Grid>
+</Window>

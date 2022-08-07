@@ -1,0 +1,19 @@
+﻿<Window x:Class="A02.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A02"
+        mc:Ignorable="d"
+        Title="AboutWindow" Height="291.429" Width="372.857" ResizeMode="NoResize" Background="#FF8F90A3">
+    <Grid>
+        <StackPanel>
+            <Label Content="NOTEPAD A02" Height="30" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+            <Label Content="Version: 1.0" Height="25" VerticalAlignment="Top"/>
+            <Label Content="First Version Created: 2021-09-25" Height="25" VerticalAlignment="Top"/>
+            <Label Content="2021" Height="25" VerticalAlignment="Top"/>
+            <Label Content="About:" Height="25" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="This program mimics the behavior of NotePad" Height="25" VerticalAlignment="Top"/>
+        </StackPanel>
+    </Grid>
+</Window>
