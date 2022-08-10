@@ -40,10 +40,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./img/Capture.jpg)
+<img src="./img/capture.jpg"><br>
 
-This project is a text editor built in WPF using C#. It contains a live character counter in the bottom left hand corner that changes whenever a character is added or removed. It supports reading and writing text files. The user may open a text file they already have, modify the contents, and save the file as a new text file or overwrite the original. The user may also create a new file in the program
-and save it. The program will prompt the user to save changes upon exit if changes have not been saved.
+<p>This project is a text editor built in WPF using C#. It contains a live character counter in the bottom left hand corner that changes whenever a character is added or removed. It supports reading and writing text files. The user may open a text file they already have, modify the contents, and save the file as a new text file or overwrite the original. The user may also create a new file in the program
+and save it. The program will prompt the user to save changes upon exit if changes have not been saved.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
