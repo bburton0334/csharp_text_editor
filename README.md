@@ -100,7 +100,7 @@ Project Link: [https://github.com/bburton0334/csharp_text_editor](https://github
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: img/Capture.jpg
+[product-screenshot]: ./img/Capture.jpg
 [WPF]: https://img.shields.io/badge/wpf-000000?style=for-the-badge&logo=xaml&logoColor=white
 [WPF-url]: https://visualstudio.microsoft.com/vs/features/wpf/
 [C-sharp]: https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=csharp&logoColor=white
