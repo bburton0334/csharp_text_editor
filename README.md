@@ -40,7 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./img/capture.jpg"><br>
+<img src="./img/Capture.JPG" /><br>
 
 <p>This project is a text editor built in WPF using C#. It contains a live character counter in the bottom left hand corner that changes whenever a character is added or removed. It supports reading and writing text files. The user may open a text file they already have, modify the contents, and save the file as a new text file or overwrite the original. The user may also create a new file in the program
 and save it. The program will prompt the user to save changes upon exit if changes have not been saved.</p>
@@ -100,7 +100,6 @@ Project Link: [https://github.com/bburton0334/csharp_text_editor](https://github
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: ./img/Capture.jpg
 [WPF]: https://img.shields.io/badge/wpf-000000?style=for-the-badge&logo=xaml&logoColor=white
 [WPF-url]: https://visualstudio.microsoft.com/vs/features/wpf/
 [C-sharp]: https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=csharp&logoColor=white
